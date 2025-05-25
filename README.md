@@ -1,17 +1,21 @@
 TaskManagement API Documentation
+
 Project Overview
+
 TaskManagement is a clean architecture-based API for managing tasks with the following features:
 ·	Create, read, update, and delete tasks
 ·	Task prioritization (Low, Medium, High)
 ·	Task status tracking (NotStarted, InProgress, Completed)
 ·	Data validation
 ·	CORS support for frontend integration
+
 Architecture
 The solution is organized into multiple projects following clean architecture principles:
 1.	TaskManagement.Domain: Contains core business entities and enums
 2.	TaskManagement.Application: Contains DTOs, interfaces, and validation logic
 3.	TaskManagement.Infrastructure: Contains data access, EF Core configuration, and services
 4.	TaskManagement.Api: Contains controllers and API configuration
+
 Getting Started
 Prerequisites
 ·	.NET 8 SDK
@@ -47,11 +51,6 @@ API Endpoints
 POST   | /api/tasks | Create a new task 
 PUT    | /api/tasks/{id} | Update a task 
  DELETE | /api/tasks/{id} | Delete a task 
-
-
-
-
-
 
 
 Sample Request (Creating a Task)
