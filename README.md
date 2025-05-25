@@ -10,6 +10,7 @@ TaskManagement is a clean architecture-based API for managing tasks with the fol
 ·	CORS support for frontend integration
 
 Architecture
+
 The solution is organized into multiple projects following clean architecture principles:
 1.	TaskManagement.Domain: Contains core business entities and enums
 2.	TaskManagement.Application: Contains DTOs, interfaces, and validation logic
@@ -17,6 +18,7 @@ The solution is organized into multiple projects following clean architecture pr
 4.	TaskManagement.Api: Contains controllers and API configuration
 
 Getting Started
+
 Prerequisites
 ·	.NET 8 SDK
 ·	SQL Server (LocalDB or full SQL Server instance)
@@ -80,6 +82,9 @@ The API includes CORS configuration to support integration with a React frontend
 Troubleshooting
 
 ·	Migration Errors: Ensure all required packages are installed in the Infrastructure project
+
 ·	Connection Issues: Verify your SQL Server is running and the connection string is correct
+
 ·	Validation Errors: Check the request payload against the DTO validation requirements
+
 
