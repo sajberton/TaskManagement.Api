@@ -23,8 +23,11 @@ Prerequisites
 ·	.NET 8 SDK
 ·	SQL Server (LocalDB or full SQL Server instance)
 ·	Visual Studio 2022 or another compatible IDE
+
 Step 1: Clone the Repository
+
 Step 2: Configure the Database Connection
+
 1.	Open TaskManagement.Api/appsettings.json
 2.	Update the connection string:
 
