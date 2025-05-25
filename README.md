@@ -31,6 +31,7 @@ Step 2: Configure the Database Connection
 "ConnectionStrings": {
 
   "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=TaskManagementDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+  
 }
 
 Step 3: Create the Database
