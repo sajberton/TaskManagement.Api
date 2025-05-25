@@ -30,6 +30,7 @@ Step 2: Configure the Database Connection
   "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=TaskManagementDb;Trusted_Connection=True;MultipleActiveResultSets=true"
 }
 Step 3: Create the Database
+
 Using Visual Studio Package Manager Console:
 1.	Open the solution in Visual Studio
 2.	Open Package Manager Console (Tools > NuGet Package Manager > Package Manager Console)
@@ -59,6 +60,7 @@ DELETE | /api/tasks/{id} | Delete a task
 
 
 Sample Request (Creating a Task)
+
 POST /api/tasks HTTP/1.1
 Host: localhost:5001
 Content-Type: application/json
@@ -71,10 +73,12 @@ Content-Type: application/json
   "dueDate": "2023-12-31T23:59:59Z"
 }
 
+
 Frontend Integration
 The API includes CORS configuration to support integration with a React frontend running on http://localhost:3000.
 
 Troubleshooting
+
 ·	Migration Errors: Ensure all required packages are installed in the Infrastructure project
 ·	Connection Issues: Verify your SQL Server is running and the connection string is correct
 ·	Validation Errors: Check the request payload against the DTO validation requirements
