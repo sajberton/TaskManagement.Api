@@ -64,19 +64,29 @@ DELETE | /api/tasks/{id} | Delete a task
 Sample Request (Creating a Task)
 
 POST /api/tasks HTTP/1.1
+
 Host: localhost:5001
+
 Content-Type: application/json
 
+
 {
+
   "title": "Complete Documentation",
+  
   "description": "Write comprehensive documentation for the TaskManagement API",
+  
   "status": 0,
+  
   "priority": 1,
+  
   "dueDate": "2023-12-31T23:59:59Z"
+  
 }
 
 
 Frontend Integration
+
 The API includes CORS configuration to support integration with a React frontend running on http://localhost:3000.
 
 Troubleshooting
